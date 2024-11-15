@@ -16,6 +16,6 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: fileURLToPath(new URL('../client-build')),
+    outDir: '../client-build'
   }
 })
